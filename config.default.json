@@ -1,0 +1,21 @@
+{
+    "poolms": 60000,
+    "outputDir": "output",
+    "jobs": [
+        {
+            "id": "",
+            "enable": true,
+            "filename": "test1.go",
+            "params": {
+                "pippo": "pluto"
+            },
+            "schedule": {
+                "hours": 1,
+                "minutes": 22,
+                "seconds": 0,
+                "month": "*",
+                "weekDay": "*"
+            }
+        }
+    ]
+}
